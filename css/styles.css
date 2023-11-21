@@ -1065,11 +1065,52 @@ img {
             width: calc((100% -108px)/2);
         }
 
-        
+        .footer-flex {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 24px;
+        }
+    
+        .footer-description {
+            color: var(--CLOUD, #F4F4FD);
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.32px;
+            width: 264px;
+            margin-right: 24px;
+            text-align: start;
+        }
+    
+        .social-media-footer {
+            display: flex;
+            flex-direction: column;
+            row-gap: 16px;
+            align-items: flex-start;
+        }
+    
+    
+        .social-list-footer {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+        }
 
 
-
-
+        .footer-form-container{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    
+        .footer-subscribe-form {
+            display: flex;
+            flex-direction: row;
+            gap: 24px;
+            align-items: flex-start;
+        }
+    
 
 }
 
@@ -1182,5 +1223,50 @@ img {
         padding-top: 120px;
         padding-bottom: 120px;
     }
+
+        .footer-flex {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            gap: 60px;
+        }
+    
+        .footer-description {
+            color: var(--CLOUD, #F4F4FD);
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.32px;
+            width: 264px;
+            margin-right: 24px;
+            text-align: start;
+        }
+
+    .social-media-footer {
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+        align-items: flex-start;
+    }
+    
+    
+        .social-list-footer {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+        }
+    
+    
+        .footer-form-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    
+        .footer-subscribe-form {
+            display: flex;
+            flex-direction: row;
+            gap: 24px;
+            align-items: flex-start;
+        }
 
 }
