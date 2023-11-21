@@ -424,6 +424,307 @@ img {
     letter-spacing: 0.32px;
 }
 
+.team {
+    background: var(--CLOUD, #F4F4FD);
+    padding: 72px 0
+}
+
+.team-list-cards {
+    display: flex;
+    gap: 72px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.team-cards {
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.emploer {
+    padding: 32px 0
+}
+
+.name {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    margin-bottom: 8px
+}
+
+.position {
+    color: var(--SLATE, #434455);
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    margin-bottom: 8px;
+}
+
+.section-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.social-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+    background-color: #404bbf;
+}
+
+.svg-icon-media {
+    fill: #f4f4fd;
+}
+
+
+
+.list-project {
+    display: flex;
+    row-gap: 48px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.portfolio-cards:hover .text-overlay {
+    transform: translateY(0%);
+}
+
+.portfolio-cards:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-cards {
+    width: 288px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio {
+    background: #FFF;
+    padding-top: 96px;
+    padding-bottom: 96px;
+
+}
+
+
+.naming {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.project-name {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    margin-bottom: 8px;
+}
+
+.project-type {
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.img-relative {
+    position: relative;
+    overflow: hidden;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: var(--IRIS, #4D5AE5);
+    color: var(--CLOUD, #F4F4FD);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    width: 100%;
+    height: 100%;
+    padding: 40px 32px;
+    overflow: auto;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer {
+    background: var(--NAVY-BLUE, #2E2F42);
+    padding: 100px 0;
+}
+
+.footer-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-web-logo {
+    display: inline-block;
+    color: var(--IRIS, #4D5AE5);
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.footer-studio-logo {
+    color: var(--CLOUD, #F4F4FD);
+}
+
+.footer-description{
+    text-align: center;
+}
+
+.footer-description-text {
+    color: var(--CLOUD, #F4F4FD);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    width: 288px;
+    text-align: justify;
+    margin-bottom: 72px;
+}
+
+.social-media-footer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+
+.text-social-media {
+    color: var(--WHITE, #FFF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    text-align: center;
+}
+
+.social-list-footer {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.social-list-link-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-list-link-footer:hover,
+.social-list-link-footer:focus {
+    background-color: #31d0aa;
+}
+
+.text-in-footer-form {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer-subscribe-form {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field-for-email {
+    width: 288px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: #ffffff;
+    opacity: 0.3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.field-for-email::placeholder {
+    color #ffffff;
+}
+
+.btn-subscribe {
+    width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+}
+
+.subscribe-icon {
+    margin-left: 16px;
+}
+
+
+
 @media screen and (min-width: 320px) {
     .container {
         width: 320px;
@@ -680,20 +981,46 @@ img {
    }
 
    .hero {
-       padding: 112px 0;
+       flex-direction: column;
+       padding: 188px 0;
        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero/bg.jpg");
+       max-width: 1440px;
+       background-repeat: no-repeat;
+
    }
 
    .hero-title {
+       color: var(--WHITE, #FFF);
+       text-align: center;
        font-size: 56px;
-       margin-bottom: 36px;
-       width: 496px;
-       line-height: 60px;
+       font-weight: 700;
+       line-height: 1.07;
        letter-spacing: 1.12px;
+       max-width: 496px;
+       margin-left: auto;
+       margin-right: auto;
+       margin-bottom: 48px;
    }
 
    .benefit-list{
     flex-direction: row;
+   }
+
+   .team-list-cards {
+        flex-direction: row;
+   }
+
+   .list-project {
+       display: flex;
+       flex-wrap: wrap;
+       row-gap: 72px;
+       column-gap: 24px;
+       justify-content: center;
+       flex-direction: row;
+   }
+
+   .portfolio-cards {
+       width: 356px;
    }
 
 }
@@ -701,6 +1028,7 @@ img {
 
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
+
     .list-contacts {
             display: flex;
             flex-direction: column;
@@ -726,6 +1054,22 @@ img {
         .benefit-list{
             flex-wrap: wrap;
         }
+
+        .team-list-cards {
+            column-gap: 24px;
+            row-gap: 64px;
+            flex-wrap: wrap;
+        }
+
+        .team-cards{
+            width: calc((100% -108px)/2);
+        }
+
+        
+
+
+
+
 
 }
 
@@ -811,4 +1155,32 @@ img {
        margin-bottom: 8px;
        text-align: start;
    }
+
+   .team {
+        padding: 120px 0
+   }
+
+   .team-list-cards:first-child {
+        width: calc((100% - 72px) / 4);
+    }
+
+    .team-list-cards {
+        gap: 24px;
+    }   
+
+    .list-project {
+            flex-wrap: wrap;
+            row-gap: 48px;
+            column-gap: 24px;
+        }
+    
+    .list-project:first-child {
+            width: calc((100% - 48px) / 3);
+    }
+
+    .portfolio{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
 }
